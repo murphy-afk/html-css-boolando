@@ -41,6 +41,10 @@ body {
 
 .header-container {
   background-color: rgb(255, 105, 0);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
 }
 
 .header {
@@ -141,7 +145,7 @@ body {
   top: 2%;
   font-size: 1.5rem;
   border-radius: 5px;
-  z-index: 9999;
+  z-index: 90;
 }
 
 .heart-button:hover {
@@ -161,7 +165,7 @@ body {
   padding-right: 10px;
   font-size: 0.7rem;
   color: #ffffff;
-  z-index: 9999;
+  z-index: 90;
 }
 
 .discount {
