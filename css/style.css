@@ -194,3 +194,35 @@ body {
 .product-image:hover .second-image {
   z-index: 2;
 }
+
+/* footer  */
+
+.footer {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.footer-heading {
+  font-size: 0.9rem;
+}
+
+.info-list-content {
+  display: flex;
+  gap: 10px;
+}
+
+.text-small {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
