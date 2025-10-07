@@ -92,3 +92,32 @@ body {
 .heart-button:hover {
   background-color: #ff0000;
 }
+
+.label-container {
+  display: flex;
+  position: absolute;
+  top: 80%;
+}
+
+.label {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.7rem;
+  color: #ffffff;
+}
+
+.discount {
+  background-color: #ff0000;
+  margin-right: 5px;
+}
+
+.eco {
+  background-color: rgb(13, 121, 13);
+}
+
+.single-label {
+  position: absolute;
+  top: 80%;
+}
