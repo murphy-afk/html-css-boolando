@@ -87,6 +87,7 @@ body {
   top: 2%;
   font-size: 1.5rem;
   border-radius: 5px;
+  z-index: 9999;
 }
 
 .heart-button:hover {
@@ -106,6 +107,7 @@ body {
   padding-right: 10px;
   font-size: 0.7rem;
   color: #ffffff;
+  z-index: 9999;
 }
 
 .discount {
@@ -120,4 +122,17 @@ body {
 .single-label {
   position: absolute;
   top: 80%;
+}
+
+/* photo hover  */
+
+.second-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.product-image:hover .second-image {
+  z-index: 2;
 }
