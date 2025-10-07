@@ -13,6 +13,13 @@ img {
   max-width: 100%;
 }
 
+
+/************************/
+
+body {
+  font-family: sans-serif;
+}
+
 .main {
   margin: 0 auto;
   width: 80%;
@@ -58,10 +65,30 @@ img {
 }
 
 .price {
-  color: #ff0000; 
+  color: #ff0000;
   padding-right: 5px;
 }
 
 .original-price {
   text-decoration: line-through;
+}
+
+/* image labels and button  */
+
+.product-image {
+  position: relative;
+}
+
+.heart-button {
+  padding: 10px 15px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0px;
+  top: 2%;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.heart-button:hover {
+  background-color: #ff0000;
 }
